@@ -79,9 +79,9 @@ Fichier à créer : `deroule-hover.css`
 ## ## Exercice 4 : menu déroulant partie 2
 On continue sur le même fichier HTML que l'exercice précédent.
 
-On souhaite à présent que chaque item apparaisse dans un rectangle, et que l’éventuelle sous-liste `ul`dépendant d’un item apparaisse non plus en dessous de lui, mais à sa droite au même niveau de départ. Plus précisément :
+On souhaite à présent que chaque item apparaisse dans un rectangle, et que l’éventuelle sous-liste `ul` dépendant d’un item apparaisse non plus en dessous de lui, mais à sa droite au même niveau de départ. Plus précisément :
 
-- chaque liste `ul` aura une largeur de 10em , son padding sera zéro et les puces habituellement présentes ne le seront pas ;
+- chaque liste `ul` aura une largeur de 10em, son padding sera zéro et les puces habituellement présentes ne le seront pas ;
 - chaque élément n’ayant qu’une ligne, on spécifiera la hauteur du rectangle via la propriété, fixée à 2em ;
 - chaque item sera entouré d’une bordure :
     - en ligne pleine, d'épaisseur de 0.1em, grâce à la propriété `border-width`, qui indique 4 épaisseurs dans cet ordre : haut, droit bas, gauche (trouver comment éviter qu’une ligne séparant deux items ait une épaisseur double) ;
