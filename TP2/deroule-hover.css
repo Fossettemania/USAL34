@@ -1,0 +1,10 @@
+/* on n'affiche pas les listes de niveau 2 */
+/* ni celle de niveau 3 meme si le niveau 2 est affiché */
+ul ul, ul li:hover ul ul {
+    display: none;
+}
+
+/* si on survole un item avec sous-liste on affiche celle-ci */
+ul li:hover ul, ul li ul li:hover ul {
+    display: block;
+}
