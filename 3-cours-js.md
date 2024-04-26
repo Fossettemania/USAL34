@@ -267,6 +267,8 @@ for (let i=0; i < 5; i++) de {
 }
 
 str += "</ul>";
+
+div.innerHTML = str;
 ```
 Ce bout de code ajouter à la page une liste de 0 à 4, et on n'a pas eu besoin de l'écrire ligne par ligne.
 

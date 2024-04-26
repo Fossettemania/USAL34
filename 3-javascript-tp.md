@@ -8,7 +8,7 @@ Vous devez créer un fichier `ennemi.js` où vous définirez une fonction `bouge
 
 Pour obtenir une valeur aléatoire, vous devrez utilisez :
 ```js
-var t = Math.ceil(Math.random()*(taille_max));
+let t = Math.ceil(Math.random()*(taille_max));
 ```
 sachant qu'on peut récupérer la largeur d'une page avec `window.innerWidth`, et sa hauteur avec `window.innerHeight`.
 
