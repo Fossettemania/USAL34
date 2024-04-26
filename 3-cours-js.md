@@ -263,7 +263,7 @@ let div = document.getElementById("div1");
 
 let str = "<ul>";
 
-for (let i=0; i < 5; i++) de {
+for (let i=0; i < 5; i++) {
 	str += "<li>" + i + "</li>";
 }
 
