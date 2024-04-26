@@ -84,7 +84,7 @@ On souhaite à présent que chaque item apparaisse dans un rectangle, et que l�
 - chaque liste `ul` aura une largeur de 10em, son padding sera zéro et les puces habituellement présentes ne le seront pas ;
 - chaque élément n’ayant qu’une ligne, on spécifiera la hauteur du rectangle via la propriété `line-height`, fixée à 2em ;
 - chaque item sera entouré d’une bordure :
-    - en ligne pleine, d'épaisseur de 0.1em, grâce à la propriété `border-width`, qui indique 4 épaisseurs dans cet ordre : haut, droit bas, gauche (trouver comment éviter qu’une ligne séparant deux items ait une épaisseur double) ;
+    - en ligne pleine, d'épaisseur de 0.1em, grâce à la propriété `border-width`, qui indique 4 épaisseurs dans cet ordre : haut, droit, bas, gauche (trouver comment éviter qu’une ligne séparant deux items ait une épaisseur double) ;
 - pour qu’une liste de niveau inférieur se place à côté de l’item dont elle dépend, on mettra leur propriété position à `absolute` et on donnera aux propriétés `margin-left` et `margin-top` des valeurs (elles peuvent être négatives) découlant des dimensions données ci-dessus au rectangle mais aussi aux bordures.
 
 On vérifiera qu’au grossissement de la page, les blocs restent lisibles et adjacents (c’est tout l’intérêt d’utiliser l’unité de mesure `em`, plutôt que le pixel ou le point).
@@ -97,4 +97,6 @@ Pour finir avec ce menu déroulant, on va ajouter quelques éléments pour amél
 - au survol d’un lien hypertextuel par la souris, les lettres passeront du noir au blanc , et le fond passera à une couleur sombre ;
 - on enlève le souligné sur les liens hypertextuels  ;
 - les items de liste seront au centre de leur rectangle.
+
+Fichier à créer : `deroule-color.css`
 
