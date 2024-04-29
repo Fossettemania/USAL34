@@ -66,7 +66,7 @@ Faites en sorte que les nombres premiers soient affichés sous forme de liste.
 Dans un fichier `compteur.js`, implémentez la fonction `compter_mots()` qui comptera le nombre de mots dans le texte entré dans le `<textarea>`, et qui affiche le résultat dans la `<div>`.
 
 ## Exercice 5 : tableau en table 
-Dans un fichier `tableau_en_table.js`,  implémentez la fonction `tableau_en_table` qui prend un argument un tableau de type `Array`, et qui la transforme en une ligne d'une table `<table>`.
+Dans un fichier `tableau_en_table.js`,  implémentez la fonction `tableau_en_table` qui prend un argument un tableau de type `Array`, et qui la transforme en une `<table>` d'une ligne.
 
 Vous créerez votre propre page HTML pour tester votre fonction.
 
@@ -100,15 +100,15 @@ tri_insertion(tableau tab):
 		tant que j > 0 ET tab[j-1] > tmp:
 			tab[j] = tab[j-1]
 			j = j - 1
-		tab[j] = tmp
+			tab[j] = tmp
 
 	retourner tab
 ```
 
 ### Question 1 
-À la main, faites le tri du tableau `[3, 5, 1, 3, 2]` avec l'algorithme de tri par insertion.
+À la main, faites le tri du tableau `[3, 5, 1, 2]` avec l'algorithme de tri par insertion.
 
-### Question 2
+### Question 2=
 Implémentez en JavaScript l'algorithme de tri par insertion dans une fonction `tri_insertion` qui prend en argument un tableau.
 
 ### Question 3
