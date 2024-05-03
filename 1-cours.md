@@ -1,3 +1,7 @@
+lydia.rodriguez-de-la-nava@lecnam.net 
+
+https://github.com/Lydiaronava/USAL34/
+
 
 ## C'est quoi le HTML ?
 
@@ -242,7 +246,7 @@ On peut mettre une liste dans une liste (cf. le TP).
 > - `<caption>`: la légende du tableau ;
 > - `<thead>`(*table head*) : dedans on liste le titre des colonnes ;
 > - `<tbody>`(*table body*) : contient le reste du tableau ;
-> - `<th>`(*table head*) : définit le nom d'une colonne ou d'une ligne ;
+> - `<th>`(*table header*) : définit le nom d'une colonne ou d'une ligne ;
 > - `<tr>`(*table row*) : contient les cases d'une ligne ;
 > - `<td>`(*table data*) : le contenu d'une case ;
 > - `<tfoot>`(*table foot*) : si on veut mettre à part le bas du tableau on peut utiliser cette balise.
@@ -261,17 +265,17 @@ On peut mettre une liste dans une liste (cf. le TP).
   </thead>
   <tbody>
     <tr>
-      <th>Courgette</th>
+      <td>Courgette</td>
       <td>Vert ou jaune</td>
       <td>Été</td>
     </tr>
     <tr>
-      <th>Citrouille</th>
+      <td>Citrouille</td>
       <td>Orange</td>
       <td>Automne</td>
     </tr>
     <tr>
-      <th>Concombre</th>
+      <td>Concombre</td>
       <td>Vert</td>
       <td>Printemps/Été</td>
     </tr>
